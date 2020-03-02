@@ -1,0 +1,262 @@
+/* 共通部分 */
+body{
+    color:#555;
+    margin:0;
+    line-height:1.6;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+.wrap{
+    width:900px;
+    margin:0 auto;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.more{
+    font-weight: 2px;
+    display: inline-block;
+    padding:8px 20px;
+    color:skyblue;
+    border:solid 2px skyblue;
+    background-color: #fff;
+}
+
+
+
+/* HEADER */
+header{
+    
+    height: 70px;
+    line-height:70px;
+    padding:0 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    font-size:20px;
+}
+.header-nav ul{
+    font-size:0;
+}
+.header-nav li{
+    display:inline-block;
+    font-size:16px;
+    margin-left:35px;
+}
+.header-nav li:first-child{
+    margin-left:0;
+}
+header li:hover{
+    color:skyblue;
+}
+
+
+
+
+
+/* catchcopy */
+#eyecatch{
+    background-image: url(../img/bg1.jpg);
+    height: 600px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position:50% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.catchcopy{
+    font-weight: bold;
+    font-size: 45px;
+    
+    
+}
+
+
+
+
+/* NEWS */
+#news{
+    padding:60px 0;
+
+}
+.news-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.news-wrap li{
+    margin-top:10px;
+
+}
+
+.news-wrap a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+    color:skyblue;
+}
+.news-wrap li:first-child{
+    margin-top:0;
+
+    
+}
+.news-wrap span{
+    margin-right:20px;
+}
+
+
+
+
+/* interview */
+#interview{
+    background-image:url(../img/bg2.jpg);
+    background-size:cover;
+    padding:60px 0;
+}
+.interview-wrap{
+    padding:30px 0;
+    width: 600px;
+    background-color:rgba(255,255,255,0.8);
+    border:solid 2px;
+   text-align: center;
+}
+.interview-wrap .more{
+    margin-top:25px;
+}
+.interview-wrap .more:hover{
+    background-color: skyblue;
+    color:#fff;
+}
+.interview-coment{
+   
+    margin:60px 0 0;
+}
+
+
+
+
+
+/* business */
+#business{
+    padding:60px 0px;
+
+}
+#business .wrap{
+    display:flex;
+    justify-content: space-between;
+    margin-top:60px;
+}
+.items{
+    background-color: #eee;
+    text-align:center;
+   width: 250px;
+    padding: 20px 35px 50px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px; 
+}
+.items p{
+    margin-top:10px;
+}
+
+#business span{
+    display:block;
+    font-size:80px;
+    color:skyblue;
+}
+#business h3{
+    font-size: 18px;
+}
+
+
+
+
+/* company */
+#company{
+    display: flex;
+    justify-content: space-between;
+}
+.info , .recruit{
+    height:300px;
+    width: 50%;
+    position: relative;
+    background-size: cover;
+   
+}
+.info{
+    background-image: url(../img/bg4.jpg);
+}
+
+.recruit{
+    background-image: url(../img/bg5.jpg);
+    background-color: rgba(255,114,159,0.2);
+}
+.info-filter,.recruit-filter{
+    height:300px;
+    padding:20px 0 0 30px;
+    box-sizing: border-box;
+
+    
+}
+.info-filter{
+    background-color: rgba(129, 245, 255, 0.226);
+}
+.recruit-filter{
+    background-color: rgba(255,114,159,0.2);
+
+}
+
+#company .more{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+/* access */
+#access{
+    padding:60px 0;
+}
+#access .wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top:60px;
+
+}
+map,.table-access{
+    width:400px;
+    height: 300px;
+}
+
+.map{
+    border:0
+}
+th,td{
+    padding:0
+}
+.table-access th{
+    width:25%;
+}
+
+/* footer */
+footer{
+    text-align:center;
+    height:80px;
+    background-color: #eee;
+    line-height: 80px;;
+}
+
+
+
